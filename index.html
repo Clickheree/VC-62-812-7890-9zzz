@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dear Call me 😘</title>
   <meta property="og:title" content="Hi I'm Olivia 💞💞" />
-  <meta property="og:image" content="https://i.imgur.com/NoYvuQr.jpeg" />
+  <meta property="og:image" content="https://i.imgur.com/Z399Hd6.jpeg" />
   <meta property="og:description" content="Dear call me video, click here 😘" />
   <style>
     body {
@@ -19,42 +19,14 @@
       margin: auto;
       padding: 20px;
     }
-    .thumbnail-wrapper {
-      position: relative;
-      display: inline-block;
+    .thumbnail {
       width: 100%;
-      cursor: pointer;
       border-radius: 20px;
-      overflow: hidden;
-    }
-    .thumbnail-wrapper img {
-      width: 100%;
+      cursor: pointer;
       display: block;
-    }
-    .play-button {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: rgba(0, 0, 0, 0.5);
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .play-button::before {
-      content: '';
-      display: block;
-      width: 0;
-      height: 0;
-      border-left: 20px solid white;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
+      margin-bottom: 30px;
     }
     .btn {
-      margin-top: 25px;
       background-color: #25D366;
       color: white;
       padding: 15px 40px;
@@ -69,10 +41,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="thumbnail-wrapper" onclick="lanjut()">
-      <img src="https://i.imgur.com/NoYvuQr.jpeg" alt="Thumbnail Video" />
-      <div class="play-button"></div>
-    </div>
+    <img src="https://i.imgur.com/zambGbV.jpeg" alt="Thumbnail Video" class="thumbnail" onclick="lanjut()" />
     <button class="btn" onclick="lanjut()">CONTINUE</button>
   </div>
 
